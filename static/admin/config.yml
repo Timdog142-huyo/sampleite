@@ -18,14 +18,14 @@ collections:
       - {label: 'Title", name: "title", widget: "string", required: true}
 
 
-collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    slug: "{{year}}-{{slub}}"
-    fields: 
-      - {label: 'Title", name: "title", widget: "string", required: true}
+##collections:
+ ## - name: "projects"
+   ## label: "Projects"
+    ##folder: "content/projects"
+    ##create: true
+    ##slug: "{{year}}-{{slub}}"
+    ##fields: 
+     ## - {label: 'Title", name: "title", widget: "string", required: true}
 
 
 collections:
