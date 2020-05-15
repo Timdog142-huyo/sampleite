@@ -1,0 +1,70 @@
+
+
+
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = "fuckthisshit44"
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Tim de Joode Blog"
+  subtitle    = "The Blog of Tim de Joode"
+  copyright   = "© 2020"
+
+  cover       = "https://images.pexels.com/photos/4322501/pexels-photo-4322501.jpeg?cs=srgb&dl=zee-landschap-hemel-strand-4322501.jpg&fm=jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "wizartgames"
+  fbName = "timdejoode1"
+  githubName = "Timdog142-huyo"
+  linkedinName = "Tim de Joode"
+  mediumName = ""
+
+  logo = "uploads/images/coincolectorgameicon.png"
+  orgName = ""
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Tim de Joode"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Eindhoven ,Eindhoven"
+  authorWebsite = "https://matinise.online/grav"
+  authorDescription = "Coder, Developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Projects"
+  url = "/tags/projects/"
+  weight = 100
+
+[[menu.main]]
+  name = "Life"
+  url = "categories/life/"
+  weight = 99
+
+[[menu.main]]
+  name = "DuckDuckGo"
+  url = "https://duckduckgo.com/"
+  weight = 95
+
