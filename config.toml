@@ -55,12 +55,12 @@ canonifyurls    = true
 
 [[menu.main]]
   name = "Projects"
-  url = "/projects"
+  url = "hello/"
   weight = 100
 
 [[menu.main]]
   name = "Life"
-  url = "/life"
+  url = "life/"
   weight = 99
 
 [[menu.main]]
