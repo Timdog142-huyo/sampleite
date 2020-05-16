@@ -60,7 +60,7 @@ canonifyurls    = true
 
 [[menu.main]]
   name = "Life"
-  url = "categories/life"
+  url = "categories/life/"
   weight = 99
 
 [[menu.main]]
