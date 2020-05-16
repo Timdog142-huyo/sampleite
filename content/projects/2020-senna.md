@@ -1,6 +1,9 @@
 ---
-menu: "main" 
-    parent: "senna"
+menu: "main"
+    life: 
+        title: "Senna"
+        parent: "senna"
+        weight: 99
 draft: false
 layout: blog
 thumbnail: uploads/backlit-bright-clouds-cloudscape-355508.jpg
