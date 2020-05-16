@@ -10,5 +10,6 @@ comments: true
 share: true
 ---
 ## Hallo
-![][cdn]
-[cdn]: https://cdn.wizart.xyz/lm.png
+![cdn][cdn]
+
+[cdn]: https://cdn.wizart.xyz/images/lm.png
