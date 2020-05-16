@@ -61,5 +61,5 @@ collections:
      - {label: "Header Image", name: image, widget: image, required: false}
      - {label: "Commenting", name: comments, widget: boolean, default: true}
      - {label: Sharing, name: share, widget: boolean, default: true}
-     - {label: Type, name: type, widget: hidden, default: true}
+     - {label: Type, name: type, widget: hidden, default: "post"}
      - {label: "Body", name: "body", widget: "markdown"}
