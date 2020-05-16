@@ -61,4 +61,3 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Title", name: "categories", widget: ["string"]}
