@@ -46,21 +46,20 @@ collections:
      - {label: Sharing, name: share, widget: boolean, default: true}
      - {label: Type, name: type, widget: hidden, default: true}
      - {label: "Body", name: "body", widget: "markdown"}
-
-- name: "life" # Used in routes, e.g., /admin/collections/blog
-  label: "Life" # Used in the UI
-  folder: "content/life" # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - {label: "Title", name: "title", widget: "date"}
-    - {label: "Publish Date", name: "date", widget: "date"}
-    - {label: "Draft", name: "draft", widget: "boolean", default: true}
-    - {label: "Categories", name: "categories", widget: "string", required: ture}
-    - {label: "Tags", name: "tags", widget: "list", required: false}
-    - {label: Author, name: author, widget: hidden, default: Tim de Joode}
-    - {label: "Header Image", name: image, widget: image, required: false}
-    - {label: "Commenting", name: comments, widget: boolean, default: true}
-    - {label: Sharing, name: share, widget: boolean, default: true}
-    - {label: Type, name: type, widget: hidden, default: true}
-    - {label: "Body", name: "body", widget: "markdown"}
+ - name: "life" # Used in routes, e.g., /admin/collections/blog
+   label: "Life" # Used in the UI
+   folder: "content/life" # The path to the folder where the documents are stored
+   create: true # Allow users to create new documents in this collection
+   slug: "{{year}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+   fields: # The fields for each document, usually in front matter
+     - {label: "Title", name: "title", widget: "date"}
+     - {label: "Publish Date", name: "date", widget: "date"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: true}
+     - {label: "Categories", name: "categories", widget: "string", required: ture}
+     - {label: "Tags", name: "tags", widget: "list", required: false}
+     - {label: Author, name: author, widget: hidden, default: Tim de Joode}
+     - {label: "Header Image", name: image, widget: image, required: false}
+     - {label: "Commenting", name: comments, widget: boolean, default: true}
+     - {label: Sharing, name: share, widget: boolean, default: true}
+     - {label: Type, name: type, widget: hidden, default: true}
+     - {label: "Body", name: "body", widget: "markdown"}
