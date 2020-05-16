@@ -1,6 +1,3 @@
-
-
-
 baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
