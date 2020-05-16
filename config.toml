@@ -27,7 +27,7 @@ canonifyurls    = true
   linkedinName = "Tim de Joode"
   mediumName = ""
 
-  logo = "uploads/images/coincolectorgameicon.png"
+  logo = "uploads/coincolectorgameicon.png"
   orgName = ""
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
