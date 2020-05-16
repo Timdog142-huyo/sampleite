@@ -55,7 +55,7 @@ canonifyurls    = true
 
 [[menu.main]]
   name = "Projects"
-  url = "/tags/projects/"
+  url = "projects"
   weight = 100
 
 [[menu.main]]
