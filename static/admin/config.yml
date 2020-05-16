@@ -47,7 +47,6 @@ collections:
      - {label: Type, name: type, widget: hidden, default: true}
      - {label: "Body", name: "body", widget: "markdown"}
 
-
   - name: "life" # Used in routes, e.g., /admin/collections/blog
     label: "Life" # Used in the UI
     folder: "content/life" # The path to the folder where the documents are stored
