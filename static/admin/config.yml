@@ -38,7 +38,7 @@ collections:
      - {label: "Title", name: "title", widget: "date"}
      - {label: "Publish Date", name: "date", widget: "date"}
      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-     - {label: "Categories", name: "categories", widget: "string", required: ture}
+     - {label: "Categories", name: "categories", widget: "string", required: true}
      - {label: "Tags", name: "tags", widget: "list", required: false}
      - {label: Author, name: author, widget: hidden, default: Tim de Joode}
      - {label: "Header Image", name: image, widget: image, required: false}
@@ -55,7 +55,7 @@ collections:
      - {label: "Title", name: "title", widget: "date"}
      - {label: "Publish Date", name: "date", widget: "date"}
      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-     - {label: "Categories", name: "categories", widget: "string", required: ture}
+     - {label: "Categories", name: "categories", widget: "string", required: true}
      - {label: "Tags", name: "tags", widget: "list", required: false}
      - {label: Author, name: author, widget: hidden, default: Tim de Joode}
      - {label: "Header Image", name: image, widget: image, required: false}
