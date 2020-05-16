@@ -1,4 +1,6 @@
 ---
+menu: "main" 
+    parent: "senna"
 draft: false
 layout: blog
 thumbnail: uploads/backlit-bright-clouds-cloudscape-355508.jpg
